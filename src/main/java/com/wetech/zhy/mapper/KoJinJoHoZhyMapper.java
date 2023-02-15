@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface KoJinJoHoZhyMapper {
+    // 個人情報の保存
     int save(KoJinJoHoZhy koJinJoHoZhy);
 }

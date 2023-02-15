@@ -3,31 +3,33 @@ package com.wetech.zhy.entity;
 import java.time.LocalDate;
 
 public class KoJinJoHoZhy {
+    // Id
     private Integer Id;
+    //姓（漢字）
     private String cpNamesei;
-
+    // 名（漢字）
     private String cpNamemei;
-
+    // セイ
     private String cpNameseikana;
-
+    // メイ
     private String cpNamemeikana;
-
+    // 姓（ローマ字）
     private String cuAlphlastname;
-
+    // 名（ローマ字）
     private String cuAlphfirstname;
-
+    // 国籍
     private String cpCountry;
-
+    // 生年月日
     private LocalDate cpBirthdate;
-
+    // 性別
     private String cpSex;
-
+    // 電話番号
     private String cpDenwa;
-
+    // 携帯電話
     private String cpPhone;
-
+    // 職業
     private String cpShokugyocode;
-
+    // 勤務先
     private String cpKinmusakiname;
 
     public Integer getId() {

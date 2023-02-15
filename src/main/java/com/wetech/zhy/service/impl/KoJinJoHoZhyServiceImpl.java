@@ -12,6 +12,7 @@ public class KoJinJoHoZhyServiceImpl implements KoJinJoHoZhyService {
     @Autowired
     private KoJinJoHoZhyMapper koJinJoHoZhyMapper;
     @Override
+    // 個人情報の保存
     public int save(KoJinJoHoZhy koJinJoHoZhy) {
         return koJinJoHoZhyMapper.save(koJinJoHoZhy);
     }
