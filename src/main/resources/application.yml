@@ -6,7 +6,10 @@ spring:
     password: 6PTXGtQ5jU7B#mbxEUd
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    type: com.alibaba.druid.pool.DruidDataSource
-
+#    droid:
+#      filter:
+#        slf4j:
+#          statement-executable-sql-log-enable: true
 
 #mybatis-plus:
 #  configuration:
