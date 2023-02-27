@@ -95,53 +95,53 @@ class WeTechSaiGaiYuShiApplicationTests {
         buildingZhy.setAplBukkenAddressPostCode3("11");
 
         buildingZhy.setDbBousaiSyudanItenJigyo("12");
-        buildingZhy.setDbBukkenShikichiNoShoyuKankei();
-        buildingZhy.setDbBukken_Tatemono_Jutaku();
-        buildingZhy.setDbBukken_Tatemono_HiJutaku();
-        buildingZhy.setDbBukken_Kozo();
-        buildingZhy.setDbBukken_TatekataKodateKeishiki();
-        buildingZhy.setDbNyukyoYoteiDateYear();
+        buildingZhy.setDbBukkenShikichiNoShoyuKankei("13");
+        buildingZhy.setDbBukken_Tatemono_Jutaku(BigDecimal.valueOf(14));
+        buildingZhy.setDbBukken_Tatemono_HiJutaku(BigDecimal.valueOf(15));
+        buildingZhy.setDbBukken_Kozo("16");
+        buildingZhy.setDbBukken_TatekataKodateKeishiki("17");
+        buildingZhy.setDbNyukyoYoteiDateYear("18");
 
-        buildingZhy.setDbNyukyoYoteiDateMonth();
-        buildingZhy.setDbJutakuYoto();
-        buildingZhy.setDbBukken_KojiKanryoDate_Year();
+        buildingZhy.setDbNyukyoYoteiDateMonth("19");
+        buildingZhy.setDbJutakuYoto("20");
+        buildingZhy.setDbBukken_KojiKanryoDate_Year("21");
 
-        buildingZhy.setDbBukken_KojiKanryoDate_Month();
-        buildingZhy.setDbShikinDateTochiShikinYear();
-        buildingZhy.setDbShikinDateTochiShikinMonth();
+        buildingZhy.setDbBukken_KojiKanryoDate_Month("22");
+        buildingZhy.setDbShikinDateTochiShikinYear("23");
+        buildingZhy.setDbShikinDateTochiShikinMonth("24");
 
-        buildingZhy.setDbShikinDateChukanShikinYear();
+        buildingZhy.setDbShikinDateChukanShikinYear("25");
 
-        buildingZhy.setDbShikinDateChukanShikinMonth();
-        buildingZhy.setDbShikinDateSaishuShikinYear();
-        buildingZhy.setDbShikinDateSaishuShikinMonth();
+        buildingZhy.setDbShikinDateChukanShikinMonth("26");
+        buildingZhy.setDbShikinDateSaishuShikinYear("27");
+        buildingZhy.setDbShikinDateSaishuShikinMonth("28");
 
-        buildingZhy.setDbKariireIninKaishaName();
-        buildingZhy.setDbChukaiHanbaiNameKana();
+        buildingZhy.setDbKariireIninKaishaName("29");
+        buildingZhy.setDbChukaiHanbaiNameKana("30");
 
-        buildingZhy.setDbChukaiHanbaiTantoshaNameMei();
-        buildingZhy.setDbChukaiHanbaiTantoshaNameSei();
+        buildingZhy.setDbChukaiHanbaiTantoshaNameMei("31");
+        buildingZhy.setDbChukaiHanbaiTantoshaNameSei("32");
 
-        buildingZhy.setDbHiyouKensetsuHi();
-        buildingZhy.setDbHiyouTochiSyotokuHi();
-        buildingZhy.setDbHiyouTotal();
-        buildingZhy.setDbKariireGakuKingaku();
-        buildingZhy.setDbKariireGakuKinri();
-        buildingZhy.setDbKariireGakuHensaiKikan();
-        buildingZhy.setDbKariireGakuNenHensai12No1();
+        buildingZhy.setDbHiyouKensetsuHi(BigDecimal.valueOf(33));
+        buildingZhy.setDbHiyouTochiSyotokuHi(BigDecimal.valueOf(34));
+        buildingZhy.setDbHiyouTotal(BigDecimal.valueOf(35));
+        buildingZhy.setDbKariireGakuKingaku(BigDecimal.valueOf(36));
+        buildingZhy.setDbKariireGakuKinri(BigDecimal.valueOf(37));
+        buildingZhy.setDbKariireGakuHensaiKikan(BigDecimal.valueOf(38));
+        buildingZhy.setDbKariireGakuNenHensai12No1(BigDecimal.valueOf(39));
 
-        buildingZhy.setDbHensaiHouhou();
-        buildingZhy.setDbHisaiShinzokuDokyoAri();
-        buildingZhy.setDbSueokiKikanNoNensu();
-        buildingZhy.setDbSonotaName();
-        buildingZhy.setDbSonotaKingaku();
+        buildingZhy.setDbHensaiHouhou("40");
+        buildingZhy.setDbHisaiShinzokuDokyoAri("41");
+        buildingZhy.setDbSueokiKikanNoNensu("42");
+        buildingZhy.setDbSonotaName("43");
+        buildingZhy.setDbSonotaKingaku(BigDecimal.valueOf(44));
 
-        buildingZhy.setDbSonotaHensaiKikan();
-        buildingZhy.setDbSonotaNenHensai12No1();
+        buildingZhy.setDbSonotaHensaiKikan(BigDecimal.valueOf(45));
+        buildingZhy.setDbSonotaNenHensai12No1(BigDecimal.valueOf(46));
 
-        buildingZhy.setDbSogoKingaku();
-        buildingZhy.setDbKinyuKikanName();
-        buildingZhy.setDbShitemName();
+        buildingZhy.setDbSogoKingaku(BigDecimal.valueOf(47));
+        buildingZhy.setDbKinyuKikanName("48");
+        buildingZhy.setDbShitemName("49");
 
 
 
