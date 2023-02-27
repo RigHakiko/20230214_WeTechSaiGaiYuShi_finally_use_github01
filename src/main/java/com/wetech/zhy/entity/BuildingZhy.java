@@ -28,7 +28,7 @@ public class BuildingZhy {
     private String dbBukkenAddressChoson;
     private String aplBukkenAddressBanchi;
     private String aplBukkenAddressPostCode3;
-    private Boolean dbBousaiSyudanItenJigyo;
+    private String dbBousaiSyudanItenJigyo;
     private String dbBukkenShikichiNoShoyuKankei;
     private BigDecimal dbBukken_Tatemono_Jutaku;
     private BigDecimal dbBukken_Tatemono_HiJutaku;
@@ -218,11 +218,11 @@ public class BuildingZhy {
         this.aplBukkenAddressPostCode3 = aplBukkenAddressPostCode3;
     }
 
-    public Boolean getDbBousaiSyudanItenJigyo() {
+    public String getDbBousaiSyudanItenJigyo() {
         return dbBousaiSyudanItenJigyo;
     }
 
-    public void setDbBousaiSyudanItenJigyo(Boolean dbBousaiSyudanItenJigyo) {
+    public void setDbBousaiSyudanItenJigyo(String dbBousaiSyudanItenJigyo) {
         this.dbBousaiSyudanItenJigyo = dbBousaiSyudanItenJigyo;
     }
 
