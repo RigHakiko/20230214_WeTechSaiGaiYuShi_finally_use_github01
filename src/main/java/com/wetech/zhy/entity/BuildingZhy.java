@@ -25,7 +25,7 @@ public class BuildingZhy {
 
     private String aplBukkenAddressTodofuken;
     private String dbBukkenAddressShigun;
-    private String DBBukkenAddressChoson;
+    private String dbBukkenAddressChoson;
     private String aplBukkenAddressBanchi;
     private String aplBukkenAddressPostCode3;
     private Boolean dbBousaiSyudanItenJigyo;
@@ -86,7 +86,7 @@ public class BuildingZhy {
                 ", dbBukken_Menseki=" + dbBukken_Menseki +
                 ", aplBukkenAddressTodofuken='" + aplBukkenAddressTodofuken + '\'' +
                 ", dbBukkenAddressShigun='" + dbBukkenAddressShigun + '\'' +
-                ", DBBukkenAddressChoson='" + DBBukkenAddressChoson + '\'' +
+                ", dbBukkenAddressChoson='" + dbBukkenAddressChoson + '\'' +
                 ", aplBukkenAddressBanchi='" + aplBukkenAddressBanchi + '\'' +
                 ", aplBukkenAddressPostCode3='" + aplBukkenAddressPostCode3 + '\'' +
                 ", dbBousaiSyudanItenJigyo=" + dbBousaiSyudanItenJigyo +
@@ -194,12 +194,12 @@ public class BuildingZhy {
         this.dbBukkenAddressShigun = dbBukkenAddressShigun;
     }
 
-    public String getDBBukkenAddressChoson() {
-        return DBBukkenAddressChoson;
+    public String getDbBukkenAddressChoson() {
+        return dbBukkenAddressChoson;
     }
 
-    public void setDBBukkenAddressChoson(String DBBukkenAddressChoson) {
-        this.DBBukkenAddressChoson = DBBukkenAddressChoson;
+    public void setDbBukkenAddressChoson(String dbBukkenAddressChoson) {
+        this.dbBukkenAddressChoson = dbBukkenAddressChoson;
     }
 
     public String getAplBukkenAddressBanchi() {

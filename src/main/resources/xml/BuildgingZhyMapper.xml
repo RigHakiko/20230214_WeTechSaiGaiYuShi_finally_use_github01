@@ -68,7 +68,7 @@
                   #{dbBukken_Menseki},
                   #{aplBukkenAddressTodofuken},
                   #{dbBukkenAddressShigun},
-                  #{DBBukkenAddressChoson},
+                  #{dbBukkenAddressChoson},
                   #{aplBukkenAddressBanchi},
                   #{aplBukkenAddressPostCode3},
                   #{dbBousaiSyudanItenJigyo},
