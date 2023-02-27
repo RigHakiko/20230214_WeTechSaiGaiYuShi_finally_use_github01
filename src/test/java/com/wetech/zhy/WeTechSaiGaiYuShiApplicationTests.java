@@ -1,9 +1,12 @@
 package com.wetech.zhy;
 
+import com.wetech.zhy.entity.BuildingZhy;
 import com.wetech.zhy.entity.CollateralProviderZhy;
 import com.wetech.zhy.entity.KoJinJoHoZhy;
+import com.wetech.zhy.mapper.BuildingZhyMapper;
 import com.wetech.zhy.mapper.CollateralProviderZhyMapper;
 import com.wetech.zhy.mapper.KoJinJoHoZhyMapper;
+import com.wetech.zhy.service.BuildingZhyService;
 import com.wetech.zhy.service.CollateralProviderZhyService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,5 +69,21 @@ class WeTechSaiGaiYuShiApplicationTests {
         collateralProviderZhy.setCpSame("14");
 //        collateralProviderZhyMapper.save(collateralProviderZhy);
         collateralProviderZhyService.save(collateralProviderZhy);
+    }
+
+    @Autowired
+    private BuildingZhyMapper buildingZhyMapper;
+    @Autowired
+    private BuildingZhyService buildingZhyService;
+    @Test
+    void test_20230227_BuildingZhy(){
+        BuildingZhy buildingZhy = new BuildingZhy();
+        buildingZhy.setName(1);
+        buildingZhy.setDbHisaijutakuShurui("2");
+        buildingZhy.setDbHisaijutakuShoyuu("3");
+        buildingZhy.setDbHigaiJokyo("4");
+        buildingZhyMapper.save(buildingZhy);
+
+
     }
 }
