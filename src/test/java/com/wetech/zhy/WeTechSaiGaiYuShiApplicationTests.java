@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Date;
 
@@ -82,6 +83,72 @@ class WeTechSaiGaiYuShiApplicationTests {
         buildingZhy.setDbHisaijutakuShurui("2");
         buildingZhy.setDbHisaijutakuShoyuu("3");
         buildingZhy.setDbHigaiJokyo("4");
+
+        buildingZhy.setDbHigaiJokyoDaikiboHankaiOrHankai("5");
+        buildingZhy.setDbBukken_Menseki(BigDecimal.valueOf(6.6));
+
+        buildingZhy.setAplBukkenAddressTodofuken("7");
+        buildingZhy.setDbBukkenAddressShigun("8");
+        buildingZhy.setDbBukkenAddressChoson("9");
+
+        buildingZhy.setAplBukkenAddressBanchi("10");
+        buildingZhy.setAplBukkenAddressPostCode3("11");
+
+        buildingZhy.setDbBousaiSyudanItenJigyo("12");
+        buildingZhy.setDbBukkenShikichiNoShoyuKankei();
+        buildingZhy.setDbBukken_Tatemono_Jutaku();
+        buildingZhy.setDbBukken_Tatemono_HiJutaku();
+        buildingZhy.setDbBukken_Kozo();
+        buildingZhy.setDbBukken_TatekataKodateKeishiki();
+        buildingZhy.setDbNyukyoYoteiDateYear();
+
+        buildingZhy.setDbNyukyoYoteiDateMonth();
+        buildingZhy.setDbJutakuYoto();
+        buildingZhy.setDbBukken_KojiKanryoDate_Year();
+
+        buildingZhy.setDbBukken_KojiKanryoDate_Month();
+        buildingZhy.setDbShikinDateTochiShikinYear();
+        buildingZhy.setDbShikinDateTochiShikinMonth();
+
+        buildingZhy.setDbShikinDateChukanShikinYear();
+
+        buildingZhy.setDbShikinDateChukanShikinMonth();
+        buildingZhy.setDbShikinDateSaishuShikinYear();
+        buildingZhy.setDbShikinDateSaishuShikinMonth();
+
+        buildingZhy.setDbKariireIninKaishaName();
+        buildingZhy.setDbChukaiHanbaiNameKana();
+
+        buildingZhy.setDbChukaiHanbaiTantoshaNameMei();
+        buildingZhy.setDbChukaiHanbaiTantoshaNameSei();
+
+        buildingZhy.setDbHiyouKensetsuHi();
+        buildingZhy.setDbHiyouTochiSyotokuHi();
+        buildingZhy.setDbHiyouTotal();
+        buildingZhy.setDbKariireGakuKingaku();
+        buildingZhy.setDbKariireGakuKinri();
+        buildingZhy.setDbKariireGakuHensaiKikan();
+        buildingZhy.setDbKariireGakuNenHensai12No1();
+
+        buildingZhy.setDbHensaiHouhou();
+        buildingZhy.setDbHisaiShinzokuDokyoAri();
+        buildingZhy.setDbSueokiKikanNoNensu();
+        buildingZhy.setDbSonotaName();
+        buildingZhy.setDbSonotaKingaku();
+
+        buildingZhy.setDbSonotaHensaiKikan();
+        buildingZhy.setDbSonotaNenHensai12No1();
+
+        buildingZhy.setDbSogoKingaku();
+        buildingZhy.setDbKinyuKikanName();
+        buildingZhy.setDbShitemName();
+
+
+
+
+
+
+
         buildingZhyMapper.save(buildingZhy);
 
 
